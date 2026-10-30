@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympic Analytics Portal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <h1 class="display-4 fw-bold text-primary">Olympic Data Analytics</h1>
+            <p class="lead text-muted">Dynamically rendered Flask & Tableau Integration Application</p>
+        </div>
+        
+        <div class="row justify-content-center g-4">
+            <div class="col-md-5">
+                <div class="card shadow-sm h-100 border-0">
+                    <div class="card-body text-center p-4">
+                        <h3 class="card-title text-dark mb-3">Olympic Dashboard</h3>
+                        <p class="card-text text-muted">Interactive dashboard passed directly via Flask context variables.</p>
+                        <a href="/dashboard" class="btn btn-primary px-4 mt-3">View Dashboard</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-5">
+                <div class="card shadow-sm h-100 border-0">
+                    <div class="card-body text-center p-4">
+                        <h3 class="card-title text-dark mb-3">Olympic Story</h3>
+                        <p class="card-text text-muted">Data story view rendered through dynamic Flask backend parameters.</p>
+                        <a href="/story" class="btn btn-success px-4 mt-3">View Story</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
